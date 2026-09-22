@@ -1,0 +1,101 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #8bc3e4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; /* Corrigido: antes estava repetido left */
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 400px;
+    height: 190px;
+}
+
+p {
+    text-align: justify;
+}
+
+.nav2 a {
+    background-color: #c7ccc8;
+}
+
+.curso {
+    background-color: rgba(99, 174, 236, 0.301);
+    box-shadow: 0 0 20px rgba(51, 49, 49, 0.25);
+}
+
+/* ESTILO DO RODAPÉ CORRIGIDO */
+footer {
+    margin-top: 30px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #8bc3e4;
+    padding: 30px 20px; /* O padding garante que o rodapé apareça com espaço suficiente */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.coluna {
+    flex: 1;
+}
+
+.coluna ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+1. Qual é a função do display: flex?
+O display: flex serve para organizar os elementos de uma página de forma mais fácil,
+principalmente em linhas ou colunas.
+
+2. Qual é a diferença entre flex-direction: row e flex-direction: column?
+O row organiza os elementos em uma linha, da esquerda para a direita.
+Já o column organiza os elementos em uma coluna, de cima para baixo.
+
+3. Para que serve justify-content?
+Serve para organizar o posicionamento dos elementos no eixo principal,
+podendo deixar eles no começo, no meio, no final ou com espaços entre eles.
+
+4. Para que serve align-items?
+Serve para alinhar os elementos no eixo contrário ao eixo principal,
+como no centro, no começo ou no final.
+
+5. Qual é a função do flex-wrap: wrap?
+Ele permite que os elementos passem para a próxima linha quando não houver
+espaço suficiente para todos ficarem na mesma linha.
+
+6. Qual é a diferença entre gap e margin?
+O gap cria um espaço entre os elementos de um container Flexbox.
+Já a margin cria um espaço ao redor de um elemento.
+
+7. Identifique três elementos da sua página que são containers Flexbox e diga quais elementos eles organizam.
+Um exemplo é o menu, que organiza os links de navegação.
+Outro é o container principal, que organiza os textos e imagens da página.
+Também pode ser o rodapé, que organiza as informações e links que ficam nele.
+*/
