@@ -11,7 +11,7 @@ header {
     padding: 20px;
     background-color: #8bc3e4;
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px; /* Corrigido: antes estava repetido left */
+    border-bottom-right-radius: 10px; 
 }
 
 nav {
@@ -44,7 +44,6 @@ p {
     box-shadow: 0 0 20px rgba(51, 49, 49, 0.25);
 }
 
-/* ESTILO DO RODAPÉ CORRIGIDO */
 footer {
     margin-top: 30px;
 }
